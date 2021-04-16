@@ -16,7 +16,7 @@ function loadEventListeners() {
 //add task
 function addTask(e) {
     if(taskInput.value === '') {
-        alert('a');
+        alert('Add a task');
     }
 
     //create li element
@@ -30,7 +30,7 @@ function addTask(e) {
     //add class
     link.className = 'delete-item secondary-content';
     //add icon html
-    link.innerHTML - '<i class="fa fa-remove"></i>';
+    link.innerHTML = '<i class="fa fa-remove"></i>';
     //append link to li
     li.appendChild(link);
 
